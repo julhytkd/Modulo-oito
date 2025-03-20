@@ -10,21 +10,21 @@ Contexto:
 Dado que eu acesse o site 
 
 Cenário: Escolha de produto
-E escolha o produto, tamando e quantidade
+Quando escolher o produto, tamando e quantidade
 Então deve adicionar ao carrinho 
 
 Cenário: Produto indisponivel
-E escolha o produto, não tenha tamando desejado
+Quando escolher o produto, não tenha tamando desejado
 Então deve exibir a mensagem "produto indisponivel" 
 
 Cenário: Quantidade permitida
-E escolha 8 produtos
+Quando escolher 8 produtos
 Então deve adicionar ao carrinho
 
 Cenário: Quantidade não permitida
-E escolha 11 produtos
+Quando escolher 11 produtos
 Então deve exibir a mensagem "quantidade não permitida"
 
 Cenário: Limpar escolha
-E clique no botão limpar
+Quando clicar no botão limpar
 Então deve voltar ao estado original
